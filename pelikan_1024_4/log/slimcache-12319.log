@@ -1,0 +1,39 @@
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGSEGV
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGHUP
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/util/util.c:101 process daemonized
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_buf.c:173 setting up the ccommon::buffer:buf module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_buf.c:64 creating buf pool: max 0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_dbuf.c:21 set up the ccommon::buffer::dbuf module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_shared.c:28 set up the ccommon::event module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/stream/cc_sockio.c:379 set up the ccommon::sockio module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/stream/cc_sockio.c:304 creating buffered socket pool: max 16384
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:871 set up the ccommon::tcp module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:131 creating tcp_conn pool: max 0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGPIPE
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:169 set up the ccommon::timing_wheel module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:133 creating timeout_event pool: max 0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/time/time.c:45 timer started at 1557196642
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/util/procinfo.c:22 set up the util::procinfo module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/request.c:171 set up the protocol::memcache::request module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/request.c:115 creating request pool: max 100000
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/response.c:180 set up the protocol::memcache::response module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/response.c:100 creating response pool: max 200000
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/parse.c:25 set up the protocol::memcache::parse module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/compose.c:22 set up the protocol::memcache::compose module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/klog.c:67 Set up the protocol::memcache:klog module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/storage/cuckoo/cuckoo.c:267 set up the storage::cuckoo module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:173 mapped datapool /mnt/pmem12/pool12319 with size 4294972096, is_pmem: 0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:97 datapool has a valid header but is dirty
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:107 initializing fresh datapool
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/server/slimcache/data/process.c:23 set up the slimcache::process module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/server/slimcache/admin/process.c:20 set up the slimcache::admin module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/core/admin/admin.c:214 set up the core::admin module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 5 with nevent 1024
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:287 server listen setup on socket descriptor 6
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:236 created timing_wheel 0x1621e3b0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:355 starting timing wheel 0x1621e3b0
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/core/data/server.c:219 set up the core::server module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 11 with nevent 1024
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:287 server listen setup on socket descriptor 12
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/src/core/data/worker.c:226 set up the core::worker module
+[Mon May  6 19:37:22 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 13 with nevent 1024

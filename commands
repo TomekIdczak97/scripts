@@ -1,0 +1,3 @@
+./generate.sh -c -r /root/Twitter/rpc-perf/target/release/rpc-perf -t {ip}
+./runtest.sh -c /root/Twitter/scripts/rpcperf_100_2048_32/ -s /root/Twitter/scripts/pelikan_2048_32 -t {ip}
+

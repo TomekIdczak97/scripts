@@ -1,0 +1,183 @@
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGSEGV
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGHUP
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/util/util.c:101 process daemonized
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_buf.c:173 setting up the ccommon::buffer:buf module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_buf.c:64 creating buf pool: max 0
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/buffer/cc_dbuf.c:21 set up the ccommon::buffer::dbuf module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_shared.c:28 set up the ccommon::event module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/stream/cc_sockio.c:379 set up the ccommon::sockio module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/stream/cc_sockio.c:304 creating buffered socket pool: max 16384
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:871 set up the ccommon::tcp module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:131 creating tcp_conn pool: max 0
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/cc_signal.c:77 override handler for SIGPIPE
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:169 set up the ccommon::timing_wheel module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:133 creating timeout_event pool: max 0
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/time/time.c:45 timer started at 1557736509
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/util/procinfo.c:22 set up the util::procinfo module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/request.c:171 set up the protocol::memcache::request module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/request.c:115 creating request pool: max 100000
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/response.c:180 set up the protocol::memcache::response module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/response.c:100 creating response pool: max 200000
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/parse.c:25 set up the protocol::memcache::parse module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/compose.c:22 set up the protocol::memcache::compose module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/protocol/data/memcache/klog.c:67 Set up the protocol::memcache:klog module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/storage/cuckoo/cuckoo.c:267 set up the storage::cuckoo module
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:173 mapped datapool /mnt/pmem13/pool12301 with size 4294971472, is_pmem: 0
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:70 no signature found in datapool
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/datapool/datapool_pmem.c:107 initializing fresh datapool
+[Mon May 13 01:35:09 2019][INFO] /root/Twitter/pelikan/src/server/slimcache/data/process.c:66 set up the slimcache::process module
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/src/server/slimcache/data/process.c:59 prefilling cuckoo with 38347923 keys, of key len 32 & val len 32, in 108.412 seconds
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/src/server/slimcache/admin/process.c:20 set up the slimcache::admin module
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/src/core/admin/admin.c:214 set up the core::admin module
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 5 with nevent 1024
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:287 server listen setup on socket descriptor 6
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:236 created timing_wheel 0x15f123b0
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/time/cc_wheel.c:355 starting timing wheel 0x15f123b0
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/src/core/data/server.c:219 set up the core::server module
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 11 with nevent 1024
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:287 server listen setup on socket descriptor 12
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/src/core/data/worker.c:226 set up the core::worker module
+[Mon May 13 01:36:57 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/event/cc_epoll.c:90 epoll fd 13 with nevent 1024
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 14 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 15 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 16 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 17 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 18 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 19 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 20 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 21 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 22 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 23 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 24 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 25 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 26 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 27 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 28 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 29 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 30 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 31 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 32 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 33 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 34 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 35 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 36 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 37 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 38 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 39 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 40 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 41 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 42 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 43 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 44 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 45 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 46 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 47 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 48 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 49 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 50 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 51 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 52 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 53 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 54 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 55 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 56 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 57 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 58 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 59 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 60 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 61 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 62 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 63 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 64 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 65 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 66 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 67 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 68 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 69 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 70 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 71 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 72 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 73 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 74 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 75 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 76 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 77 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 78 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 79 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 80 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 81 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 82 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 83 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 84 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 85 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 86 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 87 on sd 12
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 88 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:24 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 89 on sd 12
+[Mon May 13 01:37:24 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 90 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 91 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 92 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 93 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 94 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 95 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 96 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 97 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 98 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 99 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 100 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 101 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 102 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 103 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 104 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 105 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 106 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 107 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 108 on sd 12
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 109 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 110 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 111 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 112 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
+[Mon May 13 01:37:25 2019][INFO] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:382 accepted c 113 on sd 12
+[Mon May 13 01:37:25 2019][DEBUG] /root/Twitter/pelikan/deps/ccommon/src/channel/cc_tcp.c:337 accept on sd 12 not ready: eagain
