@@ -59,6 +59,8 @@ def generate_runscript(binary, server_ip, instances):
   with open(fname, 'w') as the_file:
     for i in range(instances):
       server_port = PELIKAN_SERVER_PORT + i
+      the_file.write('sudo numactl --cpunodebind={numa_node} --membind={numa_node} '.format(
+            numa_node=i%2))
       the_file.write('{binary_file} --config {config_file}'.format(binary_file=binary, config_file='rpcperf.toml'))
       the_file.write(' --endpoint {server_ip}:{server_port}'.format(server_ip=server_ip, server_port=server_port))
       the_file.write(' --waterfall latency-waterfall-{server_port}.png'.format(server_port=server_port))
